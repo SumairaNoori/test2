@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+header .containerheader{
+    background-color: black;
+    display: flex;
+   
+ 
+}
+header .containerheader li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+header .containerheader li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+header .containerheader .header_top_menu_address_inner{
+    margin: auto;
+
+}
+header .containerheader .header_top_menu_icon_inner{
+    margin: auto;
+}
+header .header_top_menu_address_inner .fa-solid{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* navigation */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav .containernav{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+}
+nav .containernav .row img{
+   min-width: 200px;
+height: 100px;
+margin-left: 50px;
+}
+nav .containernav .row2{
+margin: 0 auto;
+}
+nav .containernav li{
+    display: inline-block;
+  
+}
+nav .containernav a{
+    padding: 0 10px;
+color: white;
+align-items: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+nav .donate-btn-header{
+    padding:15px 10px;
+    background-color: white;
+    border-radius: 30px;
+    width: fit-content;
+     margin: 0 auto;
+}
+nav .donate-btn-header a{
+    color:darkblue ;
+}
+nav .row{
+    margin: 0 auto;
+
+}
+/* background  */
+.container-bg {
+    background:url(../images/bg-1.png);
+       min-height: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+.barosa{
+    line-height: 30px;
+    margin: 0 auto;
+}
+.container-bg .barosa .barosa_para{
+   color: #00144f;
+     font-size: 36px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-bottom: 20px;
+}
+.container-bg .barosa .business{
+    color: #001452 ;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.container-bg .barosa .banner_content_text{
+    margin:  40px auto;
+text-align: justify;
+font-size: 20px;
+font-weight: 600; 
+color: #04150a;
+}
+.container-bg .barosa .button{
+    padding:5px  10px;
+    border-radius: 30px;
+    background-color:orange;
+    width: fit-content;
+ 
+}
+.container-bg .barosa .button a,
+.container-bg .barosa .button i{
+    color: white;
+}
+.container-bg .banner_shape{
+    position: relative;
+    animation-name: anim;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:both;
+    animation-timing-function: calc(2s);
+    margin-right: 20px;
+}
+@keyframes anim {
+    from{
+top:0;
+    }
+    to{
+        top:40px;
+
+    }
+}
+.container-bg .banner_shape img{
+  width: 500px;
+    height: 500px;
+}
+/* audios */
+.container-audio .headeraudio{
+
+}
+.container-audio{
+    background-color: #00144f;
+    min-height: 400px;
+}
+.container-audio .headeraudio {
+    font-size: 20px;
+    font-weight: 600px;
+    color: orange;
+    text-align: center;
+  padding: 40px;
+
+}
+.container-audio {
+    box-sizing: border-box;
+}
+.container-audio .audios{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 60px;
+}
+.container-audio .audios .audioclip{
+    max-width: 33.33%;
+    flex: 33.33%;
+}
+.container-audio .audios .audioclip:not(:last-child){
+   margin-bottom: 30px;
+}
+/* agency */
+.containeragency{
+background-image: url(../images/bg-1.png);
+min-height: 600px;
+display: flex;
+
+}
+.textbtn{
+    margin: auto; 
+}
+.section_main_title {
+    color: orange;
+    text-align: center;
+}
+.section_content_text{
+text-align: justify;
+font-size: 20px;
+color: #00144f;
+line-height: 30px;
+box-sizing: border-box;
+padding: 20px 0px 20px 80px;
+}
+.containeragency .textbtn .button{
+    background-color: orange;
+    width: fit-content;
+    padding:15px 10px;
+    border-radius: 30px;
+margin: 20px auto; 
+}
+.containeragency .textbtn .button a ,
+.containeragency .textbtn .button i{
+    font-size: 20px;
+    color: white;
+}
+.containeragency .textbtn .button i{
+  margin-left: 8px;
+}
+.imagekuna{
+    padding: 30px;
+}
+.imagekuna img{
+    width: 500px;
+
+}
